@@ -1,0 +1,63 @@
+# Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and debug
+*.log
+
+# Checkpoints and backups
+*.ckpt
+*.bak
+
+# Hugging Face cache
+~/.cache/huggingface/
+cache/
+*.h5
+
+# Model files
+*.bin
+*.pt
+*.safetensors
+
+# MemoryCore-specific generated files
+memorycore/symbolic_memory.jsonl
+memorycore/backups/
+
+# Auto-generated settings
+settings.yaml
+settings_*.yaml
+
+# Misc
+*.zip
+*.tar.gz
+
+# Exclude large test imports
+bulk_import_test.txt
+bulk_seed_import_raw.txt
+
+# Node auto-generated
+node_*.json
+
+# P2P temporary sync files
+sync_temp/
+
+# Ignore local test files
+test_*.py
