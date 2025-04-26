@@ -1,0 +1,15 @@
+# Core libraries
+torch>=2.0.0
+sentencepiece>=0.1.99
+
+# Networking (for P2P)
+pyyaml>=6.0
+requests>=2.31.0
+
+# Optional (only if you include Agent LLM features)
+transformers>=4.40.0
+accelerate>=0.27.2
+bitsandbytes>=0.42.0
+
+# Optional (if using Dashboard or Terminal colors)
+rich>=13.7.1

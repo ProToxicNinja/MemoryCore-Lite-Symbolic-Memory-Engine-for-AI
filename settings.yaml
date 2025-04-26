@@ -1,0 +1,12 @@
+# settings.yaml
+
+node_id: "Node-5005"  # Change this per device!
+host: "127.0.0.1"
+port: 5005
+
+peer_host: "127.0.0.1"
+peer_port: 5006
+
+heartbeat_interval: 5  # Heartbeat every 5 seconds
+backup_interval: 3600  # Backup every 1 hour (3600 seconds)
+
