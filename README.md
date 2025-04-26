@@ -59,3 +59,45 @@ MemoryCore Lite is the beginning of something bigger.
 Feel free to fork, adapt, and contribute to its growth.
 
 🧠 Join the memory evolution.
+
+Technical Details
+
+MemoryCore-Lite symbolically encodes memories using:
+
+A trained SentencePiece model (64k vocab).
+
+Encodes token IDs into compact bytecode.
+
+Fully reversible decoding back to text (non-random, deterministic).
+
+
+Unlike embeddings, MemoryCore preserves symbolic structure:
+
+Allows merging, deduplication, and symbolic syncing across nodes.
+
+Lightweight and human-readable when decoded.
+
+Designed for decentralized, evolving AI memory systems not just compression.
+
+
+
+---
+
+Vision
+
+The goal of MemoryCore-Lite is not just to compress data
+it's to create a foundation for symbolic peer-to-peer memory sharing.
+
+Imagine:
+
+Distributed AIs syncing experiences without heavy GPUs.
+
+Low-cost edge devices sharing symbolic memories across local or mesh networks.
+
+A decentralized "hive mind" made from lightweight, symbolic cognition.
+
+
+MemoryCore is intended as a starting point a simple, open engine for evolving AI memory structures.
+
+I'm not a professional developer.
+I'm just someone deeply curious about AI memory and wanted to contribute a building block.
